@@ -37,6 +37,9 @@ background: linear-gradient(to top, #ffdde1, #ee9ca7);
         width: calc(100% - 5px);
         
     }
+    .formulario-login h2{
+        margin: 40px 0px ;
+      }
 
 }
 @media screen and (max-width:1440px){
@@ -180,9 +183,30 @@ background: linear-gradient(to top, #ffdde1, #ee9ca7);
         width: calc(50% - 20px);
         margin: 5px 2px 5px 3px;
     }
-
-
-
+}
+@media screen and (max-width:791px){
+    
+    .formulario-login {
+       height: 50%;
+   }
+    .formulario-login h2{
+        margin: 30px 0px 15px;
+        font-size: 25px;
+   }
+    .formulario-input{
+       width: 60%;
+       height: 30px;
+       border: none;
+       margin: 5% auto;
+       padding: 5px 15px;
+   }
+   .formulario-btn{
+       width: 60%;
+       height: 30px;
+       border: none;    
+   
+   }
+  
 }
 @media screen and (max-width:491px){
      /* Menu */
@@ -199,7 +223,6 @@ background: linear-gradient(to top, #ffdde1, #ee9ca7);
         display: none;
     }
     #Btn-Buscar{
-        padding: 2.5px;
        width: 90%;
        font-size: 20px;
     }
@@ -261,4 +284,25 @@ background: linear-gradient(to top, #ffdde1, #ee9ca7);
         text-shadow: 0.5px 0.5px 8px black;
     }
     
+}
+@media screen and (max-width:491px){
+    
+    .formulario-login h2{
+        margin: 25px 0px 5px;
+        font-size: 25px;
+   }
+    .formulario-input{
+       width: 60%;
+       height: 30px;
+       border: none;
+       margin: 5% auto;
+       padding: 5px 15px;
+   }
+   .formulario-btn{
+       width: 60%;
+       height: 30px;
+       border: none;    
+   
+   }
+  
 }

@@ -1,0 +1,30 @@
+.formulario-login{
+    text-align: center;
+    width: 100%;
+    height: 55vh;
+    background-color: aliceblue;
+    box-shadow: 2px 3px 4px plum;
+    display: inline-block;
+}
+.formulario-login h2{
+  margin: 25px 0px 15px;
+}
+.formulario-input{
+    width: 30%;
+    height: 40px;
+    border: none;
+    background: rgb(255, 223, 255);
+    margin: 2.5% 30% 0px;
+    padding: 5px 15px;
+    background: linear-gradient(45deg, #abf5f95e, rgba(221, 160, 221, 0.237));
+}
+.formulario-btn{
+    width: 20%;
+    height: 30px;
+    border: none;
+    background: rgb(255, 223, 255);
+    margin: 5% auto;
+    padding: 5px 15px;
+    background: linear-gradient(45deg, #abf5f937, #ffcad352);
+}
+

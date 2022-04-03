@@ -1,0 +1,264 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    /* font-size: 16px; */
+  }
+body{
+background: #ee9ca7; 
+background: -webkit-linear-gradient(to top, #ffdde1, #ee9ca7); 
+background: linear-gradient(to top, #ffdde1, #ee9ca7); 
+}
+
+
+@media screen and (min-width:2560px){
+    #banner{
+        font-size: 2rem;
+    }
+    #content{
+        margin: 200px 0 0 10%;
+    }
+    #content h1{
+        font-size: 5rem;
+    }
+    #content p{
+        font-size: 2.98rem;
+    }
+    #content button{
+        font-size: 2.98rem;
+    }
+    .g-Producto{
+        width: calc(16% - 20px);
+        margin: 5px 2px 5px 3px;
+    }
+
+    .g-Producto img {
+        width: calc(100% - 5px);
+        
+    }
+
+}
+@media screen and (max-width:1440px){
+    .g-Producto{
+        width: calc(20% - 20px);
+        margin: 5px 2px 5px 3px;
+    }
+
+
+
+}
+@media screen and (max-width:1195px){
+    /* Menu */
+    #content{
+        height: calc(40vh - 10px);
+        margin: 270px 0 0 10%;
+    }
+
+    #buscar {
+        width: 40%;
+    }
+    
+    #logo{
+        width: 30%;
+    }
+    #Div-Btn{
+        width: 29%;
+    }
+    #buscar input{
+        width: 190px;
+    }
+    /* Baner */
+    #content{
+        margin: 100px 0 0 10%;
+        
+    }
+    #content h1 {
+        font-size: xxx-large;
+        margin: 0 0 10px 0;
+    }
+    
+    #content p {
+        margin: 20px 0 15px 0;
+    }
+    /* galeria productos */
+    #div-galeria h1{
+        font-size: 1.3rem;
+        width: 45%;
+        margin-left: 5px;    
+    }
+    #div-galeria i{
+    text-align: right; 
+    width: 45%;
+    margin-right: 5px;
+    }
+
+    .g-Producto{
+        width: calc(25% - 20px);
+        margin: 5px 2px 5px 3px;
+    }
+    
+    .g-Producto img {
+        width: calc(100% - 5px);
+        
+    }
+    /* rodapie */
+    #f-logo {
+        width:25% ;
+    }
+
+    #f-menu {
+        width:22% ;
+    }
+    
+    #f-formulario {
+        width: 49%;
+    }
+    
+    
+}
+
+@media screen and (max-width:875px){
+     /* Menu */
+    #buscar {
+        width: 44%;
+    }
+    
+    #logo{
+        width: 25%;
+    }
+    #Div-Btn{
+        width: 29%;
+    }
+    /* Banner */
+    #banner{
+      height: 50vh;
+    }
+    /* galeria productos */
+    #div-galeria h1{
+        font-size: 1.3rem;
+        width: 45%;
+        margin-right: 5px;    
+    }
+
+    .g-Producto{
+        width: calc(33.33% - 20px);
+        margin: 5px 2px 5px 3px;
+    }
+
+
+}
+
+
+@media screen and (max-width:591px){
+     /* Menu */
+    #buscar {
+        width: 20%;
+    }
+    
+    #logo{
+        width: 33%;
+    }
+    #Div-Btn{
+        width: 40%;
+    }
+    #buscar input{
+        display: none;
+    }
+    #content h1 {
+        font-size: 2rem;
+      
+    }
+    /* banner */
+    #banner{
+        height: 45vh;
+
+    }
+
+    /* galeria productos */
+     .g-Producto{
+        width: calc(50% - 20px);
+        margin: 5px 2px 5px 3px;
+    }
+
+
+
+}
+@media screen and (max-width:491px){
+     /* Menu */
+    #buscar {
+        width: 30%;
+    }
+    #logo{
+        width: 33%;
+    }
+    #Div-Btn{
+        width: 30%;
+    }
+    #buscar input,#logo p{
+        display: none;
+    }
+    #Btn-Buscar{
+        padding: 2.5px;
+       width: 90%;
+       font-size: 20px;
+    }
+    #Btn-Buscar:hover{
+       width: 92%;
+
+    }
+
+    /* banner */
+    #banner{
+        height: 35vh;
+        font-size: 1rem;
+    }
+    #content {
+        margin: 10px 0 0 10%;
+    }
+    #content h1{
+        font-size: 2rem;
+    }
+
+    /* galeria productos */
+    #div-galeria h1{
+        font-size: 1.3rem;
+        width: 50%;
+        text-align: center;
+     }
+     #div-galeria i{
+        width: 40%;
+        text-align: center;
+     }
+     .g-Producto{
+        width: calc(100% - 20px);
+        margin: 5px 2px 5px 3px;
+    }
+
+    /* pie de pagina */
+
+    #f-logo {
+        width:100% ;
+        font-size: 34px;
+    }
+    #f-menu {
+        width: 100%;
+    }
+    #f-menu p{
+    padding: 11px 0;
+    font-size: 13px;
+    }
+    #f-formulario {
+        width: 90%;
+        border: 2.5px double #e19090;
+        border-radius: 10px;
+        box-shadow: 1px 1px 6px #f06b7a;
+        margin: 3px 5% 16px 5%;
+    }
+    #f-formulario p{
+        display:inline-block;
+        margin: 3px 0;
+        text-shadow: 0.5px 0.5px 8px black;
+    }
+    
+}

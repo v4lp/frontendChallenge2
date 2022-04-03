@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    /* font-size: 16px; */
+  }
+body{
+background: #ee9ca7; 
+background: -webkit-linear-gradient(to top, #ffdde1, #ee9ca7); 
+background: linear-gradient(to top, #ffdde1, #ee9ca7); 
+}
+
+/* <<<<<<<<<Menu>>>>>>>>>> */
+
+
+
+nav{ 
+    width: calc(100% - 10px);
+    height:calc(50% - 10px);
+    background: rgba(128, 128, 128, 0.164);
+    margin: 10px 10px;
+}
+
+#logo{
+    width: 20%;
+    padding: 30px 0;
+    text-align: -webkit-center;
+    display: inline-block;
+    font-size: xx-large;
+   
+}
+#logo:hover{
+
+    background: #f7445c27;
+    text-decoration: double;
+   
+}
+  
+#logo i{
+    font-size: xx-large;
+    margin: 0 7px;
+}
+
+#buscar {
+    text-align: -webkit-center;
+    display: inline-block;
+    width: 59%;
+    padding: 30px 0;
+}
+
+#buscar i{
+    font-size: 23px;
+}
+#buscar i:hover{
+    font-size: 26px;
+    color: #545353;
+}
+
+#buscar input{
+    border-radius: 10px;
+    border: double 4px rgba(0, 0, 0, 0.74);
+    margin: 1px 7px;
+    width: 290px;
+    height: 30px;
+    padding:  10px;
+    font-size: 15px;
+
+}
+
+#Div-Btn{
+    text-align: -webkit-center;
+    display: inline-block;
+    width: 20%;
+    padding: 30px 0;
+}
+#Btn-Buscar{
+    padding: 5px;
+   border: 2px solid #101111;
+   color: #343537;
+   background: rgba(156, 155, 155, 0.164);
+   border-radius: 5px;
+   width: 180px;
+   height: 55px;
+   font-size: 20px;
+}
+#Btn-Buscar:hover{
+   border: 2px solid #2b2b2b;
+   color: #282829;
+   background: rgba(87, 87, 87, 0.164);
+   border-radius: 6px;
+   width: 190px;
+   height: 59px;
+}

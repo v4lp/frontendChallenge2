@@ -1,0 +1,99 @@
+ /*<<<<<<<<<<< Rodapie>>>>>>> */
+ footer {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ef8290;
+    width: 100%;
+    height: 40%;
+    color: rgb(233, 230, 230);
+    box-shadow: 3px 2px 30px 35px #ef8290;
+}
+
+#f-logo {
+    display:inline-block;
+    color:rgb(233, 230, 230) ;
+    width:33.33% ;
+    text-align: center;
+    vertical-align: top;
+    margin: auto 0;
+    text-shadow: 0.5px 0.5px 3px black;
+    font-size: 36px;
+    padding: 20px 0px;
+    font-size: 23px; 
+}
+#f-logo p {
+
+    font-size: 2rem; 
+}
+#f-menu {
+    display:inline-block;
+    width:30% ;
+    text-align: center;
+    padding: 20px 0px;
+    vertical-align: text-bottom;
+    text-shadow: 0.5px 0.5px 3px black;
+}
+#f-menu p{
+padding: 10px 0;
+}
+#f-menu p:hover{
+box-shadow: 2px 2px 4px #12121253;
+background-color: #ea6779db;
+}
+
+#f-formulario {
+    display:inline-block;
+    width:36% ;
+
+    text-align: center;
+}
+#f-formulario p{
+    display:inline-block;
+    margin: 2.5px 0;
+    text-shadow: 0.5px 0.5px 8px black;
+}
+
+.bloque{
+    margin: 5px auto 5px auto;
+    padding: 10px;
+    background-color: aliceblue;
+    color: #505356;
+    width: 50%;
+    border-radius: 5px;
+}
+.bloque label{
+    color: #505356;
+    display: inherit;
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.bloque input{
+    border: none;
+    background-color: aliceblue;
+    width: 100%;
+    padding: 2.5px 5px ;
+}
+.bloque textarea{
+    border: none;
+    background-color: aliceblue;
+    width: 100%;
+    height: 60px;
+    padding: 2.5px  5px ;
+}
+
+#btn-f{
+    margin: 5px;
+    width: 20%;
+    padding: 2.5px;
+    border: 2px solid gray;
+    background: whitesmoke;
+    border-radius: 5px;
+}
+#btn-f :hover{
+    width: 21%;
+    border: 2px solid rgba(128, 128, 128, 0.158);
+    background: rgba(245, 245, 245, 0.192);
+    border-radius: 2px;
+}
+
+

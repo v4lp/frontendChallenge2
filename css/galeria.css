@@ -1,0 +1,49 @@
+/* <<<<<<<<<<<<<<<<<Galeria>>>>>>>>>>>>>>>>>>>>>> */
+#galeria{
+    width: calc(100% - 10px);
+    display: flexbox;
+    background-color: #030b1400;
+    margin: 10px 5px 10px 2px;
+}
+#div-galeria{
+    width:calc(100% - 10px);
+    margin: 5px;
+}
+#div-galeria h1{
+   display: inline-block;
+   width: 80%;
+    margin: 0 0 0 15px;
+}
+#div-galeria i{
+   display: inline-block;
+   width: 10%;
+   color: rgb(102 102 102);
+   text-align: right;
+}
+.g-Producto{
+    width: calc(16% - 30px);
+    height: 300px;
+    display: inline-block;
+    align-items: center;
+    background: rgba(253, 251, 251, 0.164);
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+    margin: 1px 15px 5px 15px;
+    border-radius: 10px 10px 5px 5px;
+    box-shadow: 2px 3px 4px 1px  black ;
+}
+.g-Producto img {
+    width: 225px;
+    height: 225px;
+    background: url('../img/bannerImg.jpg')  center / cover no-repeat;
+    border-radius: 10px 10px 0 0;
+}
+.g-Producto h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color:rgb(54, 54, 54) ;
+}
+.g-Producto a {
+    text-decoration: none;
+    color:rgb(41, 153, 153) ;
+}

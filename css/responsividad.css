@@ -12,12 +12,13 @@ background: linear-gradient(to top, #ffdde1, #ee9ca7);
 }
 
 
-@media screen and (min-width:2560px){
+@media screen and (max-width:2560px){
     #banner{
         font-size: 2rem;
+        height: 80vh;
     }
     #content{
-        margin: 200px 0 0 10%;
+        margin: 70px 0 0 10%;
     }
     #content h1{
         font-size: 5rem;
@@ -26,11 +27,12 @@ background: linear-gradient(to top, #ffdde1, #ee9ca7);
         font-size: 2.98rem;
     }
     #content button{
-        font-size: 2.98rem;
+        font-size: 1.98rem;
+        width: 13.98rem;
     }
     .g-Producto{
-        width: calc(16% - 20px);
-        margin: 5px 2px 5px 3px;
+        width: calc(15% - 20px);
+        margin: 10px 1.16%;
     }
 
     .g-Producto img {
@@ -44,8 +46,8 @@ background: linear-gradient(to top, #ffdde1, #ee9ca7);
 }
 @media screen and (max-width:1440px){
     .g-Producto{
-        width: calc(20% - 20px);
-        margin: 5px 2px 5px 3px;
+        width: calc(24% - 20px);
+    margin: 20px 1.1%;
     }
 
 
@@ -97,8 +99,8 @@ background: linear-gradient(to top, #ffdde1, #ee9ca7);
     }
 
     .g-Producto{
-        width: calc(25% - 20px);
-        margin: 5px 2px 5px 3px;
+        width: calc(24% - 20px);
+        margin: 20px 1.1%;
     }
     
     .g-Producto img {
@@ -146,7 +148,7 @@ background: linear-gradient(to top, #ffdde1, #ee9ca7);
 
     .g-Producto{
         width: calc(33.33% - 20px);
-        margin: 5px 2px 5px 3px;
+        margin: 5px 1%;
     }
 
 
@@ -155,6 +157,9 @@ background: linear-gradient(to top, #ffdde1, #ee9ca7);
 
 @media screen and (max-width:591px){
      /* Menu */
+     nav{
+        width: 102%;
+    }
     #buscar {
         width: 20%;
     }
@@ -210,6 +215,9 @@ background: linear-gradient(to top, #ffdde1, #ee9ca7);
 }
 @media screen and (max-width:491px){
      /* Menu */
+     nav{
+         margin: 0%;
+     }
     #buscar {
         width: 30%;
     }
@@ -244,18 +252,23 @@ background: linear-gradient(to top, #ffdde1, #ee9ca7);
     }
 
     /* galeria productos */
+    #galeria{
+        text-align: center;
+    }
+
     #div-galeria h1{
         font-size: 1.3rem;
         width: 50%;
-        text-align: center;
+        text-align: initial;
      }
      #div-galeria i{
         width: 40%;
         text-align: center;
      }
      .g-Producto{
-        width: calc(100% - 20px);
-        margin: 5px 2px 5px 3px;
+         width: calc(100% - 20px);
+        margin: 9px 10px;
+
     }
 
     /* pie de pagina */
@@ -271,6 +284,7 @@ background: linear-gradient(to top, #ffdde1, #ee9ca7);
     padding: 11px 0;
     font-size: 13px;
     }
+    /* Formulario */
     #f-formulario {
         width: 90%;
         border: 2.5px double #e19090;
@@ -283,10 +297,6 @@ background: linear-gradient(to top, #ffdde1, #ee9ca7);
         margin: 3px 0;
         text-shadow: 0.5px 0.5px 8px black;
     }
-    
-}
-@media screen and (max-width:491px){
-    
     .formulario-login h2{
         margin: 25px 0px 5px;
         font-size: 25px;
@@ -302,7 +312,5 @@ background: linear-gradient(to top, #ffdde1, #ee9ca7);
        width: 60%;
        height: 30px;
        border: none;    
-   
    }
-  
 }

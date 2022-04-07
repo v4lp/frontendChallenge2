@@ -2,13 +2,13 @@
 
 #banner{
     width: calc(100% - 0px);
-    height: calc(70vh - 10px);
+    height: calc(90vh - 10px);
     background: url('../img/bannerImg.jpg')  center / cover no-repeat;
    
 }
 #content{
     display: inline-block;
-    margin: 100px 0 0 10%;
+    margin: 20px 0 0 10%;
     text-shadow: 2px 2px 5px rgb(240 241 241);
     
 }

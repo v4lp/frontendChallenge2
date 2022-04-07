@@ -1,9 +1,9 @@
 /* <<<<<<<<<<<<<<<<<Galeria>>>>>>>>>>>>>>>>>>>>>> */
 #galeria{
-    width: calc(100% - 10px);
-    display: flexbox;
+    width: calc(100% - 5px);
+    display: inline-flexbox;
     background-color: #030b1400;
-    margin: 10px 5px 10px 2px;
+    margin: 10px 2.5px;
 }
 #div-galeria{
     width:calc(100% - 10px);
